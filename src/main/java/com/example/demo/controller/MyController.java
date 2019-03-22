@@ -14,7 +14,7 @@ public class MyController {
         return "index";
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/login")
     public String demo(){
         return "login";
     }
